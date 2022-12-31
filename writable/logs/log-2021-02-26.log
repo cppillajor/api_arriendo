@@ -1,0 +1,25 @@
+ERROR - 2021-02-26 19:43:07 --> mysqli_sql_exception: Duplicate entry '1-1' for key 'PRIMARY' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosDetalleModel.php(72): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosDetalle.php(294): App\Models\PagosDetalleModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-26 19:43:07 --> Duplicate entry '1-1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosDetalleModel.php(72): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosDetalle.php(294): App\Models\PagosDetalleModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

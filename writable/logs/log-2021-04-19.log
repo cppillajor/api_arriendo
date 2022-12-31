@@ -1,0 +1,50 @@
+ERROR - 2021-04-19 15:08:59 --> mysqli_sql_exception: Table 'bdd_rapidito_carga_pesada.tbl_datospersonales_rol' doesn't exist in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_usu...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\Usuario.php(15): App\Models\UsuarioModel->login('cristian', '123')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Usuario->login()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-19 15:08:59 --> Table 'bdd_rapidito_carga_pesada.tbl_datospersonales_rol' doesn't exist
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_usu...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\Usuario.php(15): App\Models\UsuarioModel->login('cristian', '123')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Usuario->login()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-19 15:09:32 --> mysqli_sql_exception: Unknown column 'tbl_datospersonales_rol.rol_id' in 'field list' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_usu...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\Usuario.php(15): App\Models\UsuarioModel->login('cristian', '123')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Usuario->login()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-19 15:09:32 --> Unknown column 'tbl_datospersonales_rol.rol_id' in 'field list'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_usu...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\Usuario.php(15): App\Models\UsuarioModel->login('cristian', '123')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Usuario->login()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

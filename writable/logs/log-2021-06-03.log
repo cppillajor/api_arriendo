@@ -1,0 +1,259 @@
+CRITICAL - 2021-06-03 15:55:09 --> Declaration of App\Controllers\Inmueble::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-06-03 16:06:07 --> mysqli_sql_exception: Unknown column 'tbl_persona' in 'field list' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_en_...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_en_...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_en_...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_en_...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\EnArriendoModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\EnArriendo.php(38): App\Models\EnArriendoModel->getEnArriendoArrendatario('2')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\EnArriendo->show()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 16:06:07 --> Unknown column 'tbl_persona' in 'field list'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_en_...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_en_...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_en_...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_en_...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\EnArriendoModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\EnArriendo.php(38): App\Models\EnArriendoModel->getEnArriendoArrendatario('2')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\EnArriendo->show()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 16:10:21 --> mysqli_sql_exception: Table 'arriendo_inmobiliaria.tbl_ajuste_centavos' doesn't exist in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_aju...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_aju...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_aju...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_aju...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\EnArriendoModel.php(51): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\EnArriendo.php(62): App\Models\EnArriendoModel->eliminar('16', Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\EnArriendo->delete()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 16:10:21 --> Table 'arriendo_inmobiliaria.tbl_ajuste_centavos' doesn't exist
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_aju...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_aju...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_aju...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_aju...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\EnArriendoModel.php(51): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\EnArriendo.php(62): App\Models\EnArriendoModel->eliminar('16', Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\EnArriendo->delete()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 17:11:11 --> mysqli_sql_exception: Unknown column '$usuario' in 'where clause' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:11:11 --> Unknown column '$usuario' in 'where clause'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 17:12:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbl_persona`.`per_password=123`
+OR `tbl_persona`.`per_correo` = $usuario AND...' at line 3 in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:12:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbl_persona`.`per_password=123`
+OR `tbl_persona`.`per_correo` = $usuario AND...' at line 3
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:14:27 --> syntax error, unexpected variable "$usuario", expecting ")"
+#0 C:\xampp\htdocs\apiarriendo\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\apiarriendo\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#4 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#5 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-03 17:14:55 --> Undefined variable $password
+#0 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#2 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#3 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#4 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-03 17:15:13 --> mysqli_sql_exception: Unknown column 'cppillajo' in 'where clause' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:15:13 --> Unknown column 'cppillajo' in 'where clause'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 17:15:42 --> mysqli_sql_exception: Unknown column 'cppillajo' in 'where clause' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:15:42 --> Unknown column 'cppillajo' in 'where clause'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_per...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_per...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_per...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_per...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(18): App\Models\PersonaModel->getlogin('cppillajo', '123')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->login()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 17:56:38 --> mysqli_sql_exception: Column 'per_imagen' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(53): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(106): App\Models\PersonaModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 17:56:38 --> Column 'per_imagen' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\PersonaModel.php(53): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Persona.php(106): App\Models\PersonaModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Persona->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persona))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 18:44:28 --> mysqli_sql_exception: Unknown table 'arriendo_inmobiliaria.tbl_tipo_inmueble' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_inm...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_inm...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_inm...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_inm...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\InmuebleModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Inmueble.php(57): App\Models\InmuebleModel->getUnInmueble('2')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Inmueble->show()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inmueble))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 18:44:28 --> Unknown table 'arriendo_inmobiliaria.tbl_tipo_inmueble'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_inm...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_inm...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_inm...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_inm...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\InmuebleModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Inmueble.php(57): App\Models\InmuebleModel->getUnInmueble('2')
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Inmueble->show()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inmueble))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-03 18:58:50 --> mysqli_sql_exception: Unknown column 'tbl_inmueble.in_id' in 'where clause' in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_tip...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_tip...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_tip...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_tip...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\InmuebleModel.php(66): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Inmueble.php(211): App\Models\InmuebleModel->actualizar('', Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Inmueble->update()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inmueble))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 18:58:50 --> Unknown column 'tbl_inmueble.in_id' in 'where clause'
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_tip...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_tip...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_tip...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_tip...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\InmuebleModel.php(66): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\Inmueble.php(211): App\Models\InmuebleModel->actualizar('', Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\Inmueble->update()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inmueble))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-03 19:33:44 --> Class "App\Controllers\InmueblePagoMensualModel" not found
+#0 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->seleccionarinteresadosinmueble()
+#1 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#2 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-03 21:56:47 --> Class "App\Controllers\SolicitudRolModel" not found
+#0 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\TipoInmueble->delete()
+#1 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoInmueble))
+#2 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

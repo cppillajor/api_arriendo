@@ -1,0 +1,7 @@
+CRITICAL - 2021-03-20 18:00:43 --> Undefined variable $ven_id
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 237)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->update('2')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

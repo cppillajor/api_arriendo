@@ -1,0 +1,285 @@
+CRITICAL - 2021-02-16 00:04:08 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 00:11:05 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:14:16 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:15:40 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:16:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:17:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:24:35 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:24:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:27:11 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:27:56 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:28:26 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:28:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::affected_rows()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:33:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledInsert()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:34:36 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:42:47 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, bool given, called in C:\xampp\htdocs\conciliacion\app\Models\CierresProcesosModel.php on line 32
+#0 C:\xampp\htdocs\conciliacion\app\Models\CierresProcesosModel.php(32): CodeIgniter\Database\BaseBuilder->insert(true)
+#1 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-16 00:48:10 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, bool given, called in C:\xampp\htdocs\conciliacion\app\Models\CierresProcesosModel.php on line 32
+#0 C:\xampp\htdocs\conciliacion\app\Models\CierresProcesosModel.php(32): CodeIgniter\Database\BaseBuilder->insert(true)
+#1 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-16 00:50:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:51:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getInsertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:53:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 00:53:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(147): App\Models\CierresProcesosModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:18:03 --> Undefined array key "valor2"
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->show('mostrar')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:20:07 --> Undefined array key "valor1"
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->show('5:5')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:20:16 --> Undefined array key "valor1"
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->show('5:8')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:21:22 --> Undefined array key "valor1"
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->show('$5:8$5')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:50:33 --> Undefined property: App\Controllers\CierresProcesos::$input
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->show('23')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:51:54 --> Undefined property: App\Controllers\CierresProcesos::$input
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->show('23')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:52:18 --> Undefined property: App\Controllers\CierresProcesos::$input
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->show('23')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 11:52:34 --> Undefined property: App\Controllers\CierresProcesos::$input
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->show('23')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 18:18:42 --> Declaration of App\Controllers\CierresProcesos::show($cip_codigo_cierre) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-16 20:15:20 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:15:47 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:16:12 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:16:42 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:16:55 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:17:03 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:17:28 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:17:48 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:19:33 --> Call to undefined function App\Controllers\split()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:21:07 --> Array to string conversion
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagosCabecera.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 20:22:31 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 20:22:33 --> Call to undefined function App\Controllers\validar_año_mes_dia()
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 22:06:48 --> Class "App\Controllers\PagosDetalleModel" not found
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 22:07:31 --> Class "App\Controllers\PagosDetalleModel" not found
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

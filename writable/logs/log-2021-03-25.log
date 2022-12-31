@@ -1,0 +1,25 @@
+ERROR - 2021-03-25 18:51:11 --> mysqli_sql_exception: Unknown column 'tbl_venta.autorizacion' in 'on clause' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ven...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ven...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ven...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ven...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\ConciliacionModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\Conciliacion.php(17): App\Models\ConciliacionModel->getconciliacionautomatica()
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Conciliacion->index()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacion))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-25 18:51:11 --> Unknown column 'tbl_venta.autorizacion' in 'on clause'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ven...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ven...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ven...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ven...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\ConciliacionModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\Conciliacion.php(17): App\Models\ConciliacionModel->getconciliacionautomatica()
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Conciliacion->index()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacion))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

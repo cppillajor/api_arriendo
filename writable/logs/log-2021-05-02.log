@@ -1,0 +1,9 @@
+CRITICAL - 2021-05-02 22:45:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\apica\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\apica\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\apica\app\Controllers\Rol.php(119): CodeIgniter\Model->__call('getUnaCiudad', Array)
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Rol->update('5')
+#4 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+#5 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

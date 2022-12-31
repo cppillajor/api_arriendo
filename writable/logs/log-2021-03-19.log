@@ -1,0 +1,7 @@
+CRITICAL - 2021-03-19 15:18:00 --> Undefined variable $ban_id
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionBancoTipoPago.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionBancoTipoPago->update('2')
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionBancoTipoPago))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

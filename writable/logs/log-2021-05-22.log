@@ -1,0 +1,266 @@
+ERROR - 2021-05-22 00:48:19 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(32): App\Models\PedidoCabeceraModel->getreportehoyfranquiciado('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyfranquiciado('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 00:48:19 --> Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(32): App\Models\PedidoCabeceraModel->getreportehoyfranquiciado('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyfranquiciado('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-22 00:50:20 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(47): App\Models\PedidoCabeceraModel->getreportehoycentroacopio('2021-05-22', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyporcentrodeacopio('2')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 00:50:20 --> Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(47): App\Models\PedidoCabeceraModel->getreportehoycentroacopio('2021-05-22', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyporcentrodeacopio('2')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-22 00:50:43 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(47): App\Models\PedidoCabeceraModel->getreportehoycentroacopio('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyporcentrodeacopio('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 00:50:43 --> Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(47): App\Models\PedidoCabeceraModel->getreportehoycentroacopio('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyporcentrodeacopio('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-22 00:57:39 --> mysqli_sql_exception: Unknown column 'rel_ferreteria_ciudad.tif_id' in 'where clause' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(77): App\Models\PedidoCabeceraModel->getreportehoytipofranquicia('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyportipofranquicia('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 00:57:39 --> Unknown column 'rel_ferreteria_ciudad.tif_id' in 'where clause'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(77): App\Models\PedidoCabeceraModel->getreportehoytipofranquicia('2021-05-22', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyportipofranquicia('1')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 10:55:03 --> Undefined variable $ajc_id
+#0 C:\xampp\htdocs\apica\app\Controllers\CierreMes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\CierreMes->getfechamaxima()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierreMes))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 20:55:20 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(228): json_decode(Array, true)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:01:40 --> Undefined variable $variable
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 229)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:01:53 --> Attempt to read property "pec_id" on array
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:02:04 --> Attempt to read property "pec_id" on array
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:02:23 --> Attempt to read property "pec_id" on array
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 233)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:02:54 --> Attempt to read property "pec_id" on array
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:03:08 --> Attempt to read property "pec_id" on array
+#0 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 233)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:54:01 --> Undefined array key "fec_latitud"
+#0 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->update('38')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:55:47 --> Undefined array key "fec_latitud"
+#0 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->update('38')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:56:22 --> Undefined array key "fec_ferreteria"
+#0 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->update('38')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:58:31 --> Undefined array key "fec_latitud"
+#0 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->update('37')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-22 21:59:55 --> Undefined array key "fec_latitud"
+#0 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->update('38')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-22 22:08:10 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 22:08:10 --> Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '1')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-22 22:14:00 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 22:14:00 --> Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-22 22:16:12 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.tbl_tipovehiculo' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-22 22:16:12 --> Unknown table 'bdd_rapidito_carga_pesada.tbl_tipovehiculo'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(113): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('1', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->create()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

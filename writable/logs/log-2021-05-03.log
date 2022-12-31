@@ -1,0 +1,70 @@
+CRITICAL - 2021-05-03 13:32:06 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\apica\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\apica\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\apica\app\Controllers\LugarDespacho.php(131): CodeIgniter\Model->__call('getUnLugarDesti...', Array)
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\LugarDespacho->update('4')
+#4 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarDespacho))
+#5 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 16:15:41 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\apica\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\apica\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\apica\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-03 16:35:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `tbl_tipofranquicia`.*)
+JOIN `tbl_ciudad` ON `rel_ferreteria_ciudad`.`ciu_...' at line 2 in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_fer...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_fer...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_fer...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_fer...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelFerreteriaCiudadModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(15): App\Models\RelFerreteriaCiudadModel->getAllRelFerreteriaCiudad()
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->index()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-03 16:35:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `tbl_tipofranquicia`.*)
+JOIN `tbl_ciudad` ON `rel_ferreteria_ciudad`.`ciu_...' at line 2
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_fer...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_fer...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_fer...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_fer...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelFerreteriaCiudadModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelFerreteriaCiudad.php(15): App\Models\RelFerreteriaCiudadModel->getAllRelFerreteriaCiudad()
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelFerreteriaCiudad->index()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelFerreteriaCiudad))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-03 21:38:05 --> mysqli_sql_exception: Unknown column 'tbl_datospersonales.ciu_id' in 'on clause' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\DatosPersonalesModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\DatosPersonales.php(16): App\Models\DatosPersonalesModel->getDatosPersonales()
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\DatosPersonales->index()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersonales))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-03 21:38:05 --> Unknown column 'tbl_datospersonales.ciu_id' in 'on clause'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\DatosPersonalesModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\DatosPersonales.php(16): App\Models\DatosPersonalesModel->getDatosPersonales()
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\DatosPersonales->index()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersonales))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

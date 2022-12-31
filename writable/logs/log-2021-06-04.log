@@ -1,0 +1,875 @@
+ERROR - 2021-06-04 15:03:08 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:08 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:13 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:13 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:15 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:15 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:16 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:16 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:16 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:16 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:16 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:16 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:17 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:17 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:17 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:17 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:17 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:17 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:18 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:18 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:18 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:18 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:23 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:23 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:24 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:24 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:24 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:24 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:24 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:24 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:25 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:25 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:26 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:26 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:26 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:26 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:26 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:26 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:48 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:48 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:49 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:49 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:49 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:49 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:03:49 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:03:49 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:04:49 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:04:49 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:05:14 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:05:14 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:06:05 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:06:05 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:11:03 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:11:03 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:11:33 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:11:33 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:12:14 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:12:14 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-04 15:12:38 --> mysqli_sql_exception: Column 'sa_id_persona_solicitante' cannot be null in C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 15:12:38 --> Column 'sa_id_persona_solicitante' cannot be null
+#0 C:\xampp\htdocs\apiarriendo\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\apiarriendo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\apiarriendo\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\apiarriendo\app\Models\SolicitudArriendoModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apiarriendo\app\Controllers\SolicitudArriendo.php(113): App\Models\SolicitudArriendoModel->insertar(Array)
+#6 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(936): App\Controllers\SolicitudArriendo->create()
+#7 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SolicitudArriendo))
+#8 C:\xampp\htdocs\apiarriendo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apiarriendo\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

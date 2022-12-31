@@ -1,0 +1,90 @@
+CRITICAL - 2021-05-04 10:52:26 --> Undefined variable $ajc_referencia_contable
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->create()
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:53:47 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:55:11 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:56:02 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:56:29 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:57:14 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 10:58:07 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('19')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 11:00:48 --> Undefined array key "men_icono"
+#0 C:\xampp\htdocs\apica\app\Controllers\Menu.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\Menu->update('20')
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 12:53:05 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\apica\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\apica\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\apica\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\apica\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-04 14:23:27 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(179): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('5', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->update('16')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-04 14:23:27 --> Unknown table 'bdd_rapidito_carga_pesada.tbl_datospersonales'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rel_dat...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rel_dat...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rel_dat...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rel_dat...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\RelDatosPersonalesTipoVehiculoModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\RelDatosPersonalesTipoVehiculo.php(179): App\Models\RelDatosPersonalesTipoVehiculoModel->getValidarRelDatosPersonalesTipoVehiculo('5', '2')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\RelDatosPersonalesTipoVehiculo->update('16')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelDatosPersonalesTipoVehiculo))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

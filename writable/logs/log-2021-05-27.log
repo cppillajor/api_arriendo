@@ -1,0 +1,137 @@
+ERROR - 2021-05-27 09:13:59 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(135): App\Models\PedidoCabeceraModel->getreportegeneralfranquiciado('2021-03-1', '2021-05-24', 'Ferreter\xC3\xADas Ec...')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralfranquiciado()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 09:13:59 --> Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(135): App\Models\PedidoCabeceraModel->getreportegeneralfranquiciado('2021-03-1', '2021-05-24', 'Ferreter\xC3\xADas Ec...')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralfranquiciado()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-27 09:36:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7 in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 09:36:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-27 09:37:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7 in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 09:37:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-27 09:37:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7 in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 09:37:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tbl_pedidocabecera`.`pec_fecharecogida` < IS NULL
+AND `tbl_pedid...' at line 7
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(218): App\Models\PedidoCabeceraModel->getreportegeneralchofer(NULL, NULL, NULL)
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportegeneralchofer()
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-27 10:39:58 --> mysqli_sql_exception: Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad' in C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(57): App\Models\PedidoCabeceraModel->getreportehoyfranquiciado('2021-03-17', 'Econ\xC3\xB3mica El R...')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyfranquiciado('Econ\xC3\xB3mica El R...')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 10:39:58 --> Unknown table 'bdd_rapidito_carga_pesada.rel_ferreteria_ciudad'
+#0 C:\xampp\htdocs\apica\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_ped...')
+#1 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_ped...')
+#2 C:\xampp\htdocs\apica\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_ped...')
+#3 C:\xampp\htdocs\apica\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_ped...', Array, false)
+#4 C:\xampp\htdocs\apica\app\Models\PedidoCabeceraModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apica\app\Controllers\PedidoCabecera.php(57): App\Models\PedidoCabeceraModel->getreportehoyfranquiciado('2021-03-17', 'Econ\xC3\xB3mica El R...')
+#6 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->reportehoyfranquiciado('Econ\xC3\xB3mica El R...')
+#7 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#8 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

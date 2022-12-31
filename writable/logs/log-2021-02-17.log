@@ -1,0 +1,34 @@
+CRITICAL - 2021-02-17 07:54:35 --> Declaration of App\Controllers\CierresProcesos::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-17 07:57:02 --> Undefined variable $cip_mes_cierre
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\CierresProcesos.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\CierresProcesos->show()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CierresProcesos))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-17 09:09:58 --> Too few arguments to function App\Models\VentaModel::getVenta(), 1 passed in C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php on line 205 and exactly 5 expected
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\Venta.php(205): App\Models\VentaModel->getVenta('88')
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\Venta->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-17 19:54:50 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-17 19:55:34 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-17 19:56:18 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-17 19:57:39 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-17 20:45:25 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}

@@ -1,0 +1,99 @@
+CRITICAL - 2021-02-18 09:30:51 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\conciliacion\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\conciliacion\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-18 11:01:29 --> Undefined variable $cruce_anulados_model
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\RetencionCabecera.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RetencionCabecera->index()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RetencionCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-18 11:02:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\conciliacion\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\conciliacion\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\conciliacion\app\Controllers\RetencionCabecera.php(16): CodeIgniter\Model->__call('getCruceAnulado...', Array)
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RetencionCabecera->index()
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RetencionCabecera))
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-02-18 19:39:12 --> mysqli_sql_exception: Unknown column 'bap_nombre_banco' in 'field list' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\BancoPagadorModel.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\BancoPagador.php(186): App\Models\BancoPagadorModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\BancoPagador->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BancoPagador))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-18 20:12:36 --> mysqli_sql_exception: Duplicate entry '1-1' for key 'PRIMARY' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\FrecuenciasPagoModel.php(33): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\FrecuenciasPago.php(152): App\Models\FrecuenciasPagoModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\FrecuenciasPago->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrecuenciasPago))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-18 20:48:57 --> syntax error, unexpected token "echo", expecting ")"
+#0 C:\xampp\htdocs\conciliacion\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\conciliacion\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-02-18 20:55:01 --> mysqli_sql_exception: Column 'pac_codigo_archivo' cannot be null in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosReferenciasBancariasDetalleModel.php(34): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosReferenciasBancariasDetalle.php(156): App\Models\PagosReferenciasBancariasDetalleModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosReferenciasBancariasDetalle->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosReferenciasBancariasDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-18 20:55:12 --> mysqli_sql_exception: Column 'pac_codigo_archivo' cannot be null in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosReferenciasBancariasDetalleModel.php(34): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosReferenciasBancariasDetalle.php(156): App\Models\PagosReferenciasBancariasDetalleModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosReferenciasBancariasDetalle->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosReferenciasBancariasDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-18 20:57:41 --> mysqli_sql_exception: Unknown column 'tbl_pagos_referencias_bancarias_detalle.pac_codigo_archivo' in 'where clause' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_cie...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_cie...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_cie...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_cie...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosReferenciasBancariasDetalleModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosReferenciasBancariasDetalle.php(74): App\Models\PagosReferenciasBancariasDetalleModel->eliminar('1', '1', '1', Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosReferenciasBancariasDetalle->delete()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosReferenciasBancariasDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

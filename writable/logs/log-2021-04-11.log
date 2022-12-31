@@ -1,0 +1,18 @@
+CRITICAL - 2021-04-11 20:47:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\apisurtitech\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\apisurtitech\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\apisurtitech\app\Controllers\Usuario.php(123): CodeIgniter\Model->__call('actualizar', Array)
+#3 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(936): App\Controllers\Usuario->update('3')
+#4 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apisurtitech\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-11 20:48:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\apisurtitech\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\apisurtitech\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\apisurtitech\app\Controllers\Usuario.php(123): CodeIgniter\Model->__call('actualizar', Array)
+#3 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(936): App\Controllers\Usuario->update('3')
+#4 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 C:\xampp\htdocs\apisurtitech\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\apisurtitech\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

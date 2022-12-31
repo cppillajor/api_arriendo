@@ -1,0 +1,75 @@
+ERROR - 2021-02-27 15:47:12 --> mysqli_sql_exception: Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 15:47:12 --> Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 15:52:24 --> mysqli_sql_exception: Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 15:52:24 --> Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-27 15:54:19 --> mysqli_sql_exception: Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-27 15:54:19 --> Unknown column 'tbl_pagos_detalle.pad_codigo_pago' in 'on clause'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_rel...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rel...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rel...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rel...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\RelacionPagosVentasModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\RelacionPagosVentas.php(65): App\Models\RelacionPagosVentasModel->getUnRelacionPagosVentas('2020-02-01', '2020-03-03')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\RelacionPagosVentas->showrelacionpagosventas()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacionPagosVentas))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,134 @@
+ERROR - 2021-03-14 10:28:55 --> mysqli_sql_exception: Unknown column 'pac_descuento_comision' in 'field list' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagoCabeceraModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-14 10:28:55 --> Unknown column 'pac_descuento_comision' in 'field list'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagoCabeceraModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-14 10:31:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:32:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:32:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:32:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:34:15 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2210): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\conciliacion\app\Models\PagoCabeceraModel.php(34): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+#2 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-14 10:34:39 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2210): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\conciliacion\app\Models\PagoCabeceraModel.php(34): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+#2 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-14 10:35:11 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(2210): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\conciliacion\app\Models\PagoCabeceraModel.php(34): CodeIgniter\Database\BaseBuilder->getCompiledInsert(true)
+#2 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#4 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#5 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-14 10:41:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:42:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:44:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insert_id()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:46:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(147): App\Models\PagoCabeceraModel->insertar(Array)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:51:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-14 10:54:30 --> Undefined array key "pac_id"
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-14 10:57:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-14 10:58:06 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+#0 C:\xampp\htdocs\conciliacion\app\Controllers\PagoCabecera.php(150): json_decode(Object(stdClass), true)
+#1 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagoCabecera->create()
+#2 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagoCabecera))
+#3 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

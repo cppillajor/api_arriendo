@@ -1,0 +1,6 @@
+CRITICAL - 2021-05-24 10:48:53 --> Unsupported operand types: int + string
+#0 C:\xampp\htdocs\apica\system\CodeIgniter.php(936): App\Controllers\PedidoCabecera->pedidocabeceracerrarmes()
+#1 C:\xampp\htdocs\apica\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoCabecera))
+#2 C:\xampp\htdocs\apica\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\apica\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

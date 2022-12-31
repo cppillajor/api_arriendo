@@ -1,0 +1,25 @@
+ERROR - 2021-03-13 15:03:48 --> mysqli_sql_exception: Unknown table 'bdd_conciliaciontarjetascredito.tbl_frecuencias_pago' in C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pag...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pag...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pag...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pag...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosDetalleModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosDetalle.php(77): App\Models\PagosDetalleModel->getmayornoconciliado('2020-02-02', '2020-05-05')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->mayornoconciliado()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-13 15:03:48 --> Unknown table 'bdd_conciliaciontarjetascredito.tbl_frecuencias_pago'
+#0 C:\xampp\htdocs\conciliacion\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pag...')
+#1 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pag...')
+#2 C:\xampp\htdocs\conciliacion\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pag...')
+#3 C:\xampp\htdocs\conciliacion\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pag...', Array, false)
+#4 C:\xampp\htdocs\conciliacion\app\Models\PagosDetalleModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\conciliacion\app\Controllers\PagosDetalle.php(77): App\Models\PagosDetalleModel->getmayornoconciliado('2020-02-02', '2020-05-05')
+#6 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(936): App\Controllers\PagosDetalle->mayornoconciliado()
+#7 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagosDetalle))
+#8 C:\xampp\htdocs\conciliacion\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\conciliacion\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
